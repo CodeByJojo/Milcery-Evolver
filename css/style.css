@@ -118,7 +118,7 @@ button {
   display: none;
 }
 
-hr {
+.hrHide {
   visibility: hidden;
 }
 
@@ -168,7 +168,7 @@ hr {
     
   }
 
-  hr {
+  .hrHide {
     visibility: visible;
     width: 50%;
 
