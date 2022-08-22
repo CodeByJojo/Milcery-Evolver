@@ -118,6 +118,10 @@ button {
   display: none;
 }
 
+hr {
+  visibility: hidden;
+}
+
 /* Phone Size here */
 
 @media only screen and (max-width: 800px) {
