@@ -119,7 +119,7 @@ button {
 }
 
 .hrHide {
-  visibility: hidden;
+  display: none;
 }
 
 /* Phone Size here */
