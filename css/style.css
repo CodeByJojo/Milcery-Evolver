@@ -41,6 +41,10 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.milcery {
+  width: 20%;
+}
+
 span {
   border: solid 2px black;
   border-radius: 10px;
@@ -129,32 +133,36 @@ button {
     width: 50%;
   }
 
+  .milcery {
+    width: 50%;
+  }
+
   .treat {
     display: flex;
     flex-direction: row;
     width: 50px;
+    
   }
 
   .method {
-    width: 10%;
     display: flex;
     text-align: center;
-    flex-direction: row;
+    flex-direction: column;
     width: 75%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .treatContain {
     display: flex;
     justify-content: center;
     margin-right: 50%;
+    
   }
   
   .methodContain {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin: 0;
-    margin-left: 100px;
     
     
   }

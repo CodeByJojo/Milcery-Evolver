@@ -221,256 +221,256 @@ function evolve() {
     let choices = document.querySelectorAll('.targeted')
     
     
-    if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m1 targeted">3 second clockwise day</span>') {
+    if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m1 targeted">Vanilla</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawVanilla').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m2 targeted">3 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m2 targeted">Ruby</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawRuby').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m3 targeted">3 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m3 targeted">Matcha</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawMatcha').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m4 targeted">6 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m4 targeted">Mint</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawMint').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m5 targeted">6 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m5 targeted">Lemon</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawLemon').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m6 targeted">3 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m6 targeted">Salted</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawSalted').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m7 targeted">6 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m7 targeted">Ruby Swirl</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawSwirl').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m8 targeted">6 second clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m8 targeted">Caramel</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawCaramel').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m9 targeted">12 second between 7pm and 7am</span>') {
+    } else if (choices[0].outerHTML == '<img class="strawberry targeted" src="resources/strawberry.webp">' && choices[1].outerHTML == '<span class="m9 targeted">Rainbow</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.strawRainbow').classList.remove('hidden') 
-    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m1 targeted">3 second clockwise day</span>') {
+    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m1 targeted">Vanilla</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueVanilla').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m2 targeted">3 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m2 targeted">Ruby</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueRuby').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m3 targeted">3 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m3 targeted">Matcha</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueMatcha').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m4 targeted">6 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m4 targeted">Mint</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueMint').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m5 targeted">6 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m5 targeted">Lemon</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueLemon').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m6 targeted">3 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m6 targeted">Salted</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueSalted').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m7 targeted">6 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m7 targeted">Ruby Swirl</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueSwirl').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m8 targeted">6 second clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m8 targeted">Caramel</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueCaramel').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m9 targeted">12 second between 7pm and 7am</span>') {
+    } else if (choices[0].outerHTML == '<img class="blueberry targeted" src="resources/blueberry.webp">' && choices[1].outerHTML == '<span class="m9 targeted">Rainbow</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.blueRainbow').classList.remove('hidden') 
-    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m1 targeted">3 second clockwise day</span>') {
+    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m1 targeted">Vanilla</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartVanilla').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m2 targeted">3 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m2 targeted">Ruby</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartRuby').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m3 targeted">3 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m3 targeted">Matcha</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartMatcha').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m4 targeted">6 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m4 targeted">Mint</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartMint').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m5 targeted">6 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m5 targeted">Lemon</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartLemon').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m6 targeted">3 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m6 targeted">Salted</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartSalted').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m7 targeted">6 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m7 targeted">Ruby Swirl</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartSwirl').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m8 targeted">6 second clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m8 targeted">Caramel</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartCaramel').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m9 targeted">12 second between 7pm and 7am</span>') {
+    } else if (choices[0].outerHTML == '<img class="heart targeted" src="resources/heart.webp">' && choices[1].outerHTML == '<span class="m9 targeted">Rainbow</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.heartRainbow').classList.remove('hidden')
 
-    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m1 targeted">3 second clockwise day</span>') {
+    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m1 targeted">Vanilla</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starVanilla').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m2 targeted">3 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m2 targeted">Ruby</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starRuby').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m3 targeted">3 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m3 targeted">Matcha</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starMatcha').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m4 targeted">6 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m4 targeted">Mint</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starMint').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m5 targeted">6 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m5 targeted">Lemon</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starLemon').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m6 targeted">3 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m6 targeted">Salted</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starSalted').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m7 targeted">6 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m7 targeted">Ruby Swirl</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starSwirl').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m8 targeted">6 second clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m8 targeted">Caramel</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starCaramel').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m9 targeted">12 second between 7pm and 7am</span>') {
+    } else if (choices[0].outerHTML == '<img class="star targeted" src="resources/star.webp">' && choices[1].outerHTML == '<span class="m9 targeted">Rainbow</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.starRainbow').classList.remove('hidden') 
-    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m1 targeted">3 second clockwise day</span>') {
+    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m1 targeted">Vanilla</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverVanilla').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m2 targeted">3 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m2 targeted">Ruby</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverRuby').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m3 targeted">3 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m3 targeted">Matcha</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverMatcha').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m4 targeted">6 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m4 targeted">Mint</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverMint').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m5 targeted">6 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m5 targeted">Lemon</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverLemon').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m6 targeted">3 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m6 targeted">Salted</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverSalted').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m7 targeted">6 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m7 targeted">Ruby Swirl</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverSwirl').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m8 targeted">6 second clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m8 targeted">Caramel</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverCaramel').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m9 targeted">12 second between 7pm and 7am</span>') {
+    } else if (choices[0].outerHTML == '<img class="clover targeted" src="resources/clover.webp">' && choices[1].outerHTML == '<span class="m9 targeted">Rainbow</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.cloverRainbow').classList.remove('hidden') 
-    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m1 targeted">3 second clockwise day</span>') {
+    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m1 targeted">Vanilla</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerVanilla').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m2 targeted">3 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m2 targeted">Ruby</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerRuby').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m3 targeted">3 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m3 targeted">Matcha</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerMatcha').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m4 targeted">6 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m4 targeted">Mint</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerMint').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m5 targeted">6 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m5 targeted">Lemon</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerLemon').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m6 targeted">3 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m6 targeted">Salted</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerSalted').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m7 targeted">6 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m7 targeted">Ruby Swirl</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerSwirl').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m8 targeted">6 second clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m8 targeted">Caramel</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerCaramel').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m9 targeted">12 second between 7pm and 7am</span>') {
+    } else if (choices[0].outerHTML == '<img class="flower targeted" src="resources/flower.webp">' && choices[1].outerHTML == '<span class="m9 targeted">Rainbow</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.flowerRainbow').classList.remove('hidden') 
-    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m1 targeted">3 second clockwise day</span>') {
+    } /* Next Treat */ else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m1 targeted">Vanilla</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowVanilla').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m2 targeted">3 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m2 targeted">Ruby</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowRuby').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m3 targeted">3 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m3 targeted">Matcha</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowMatcha').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m4 targeted">6 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m4 targeted">Mint</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowMint').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m5 targeted">6 second clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m5 targeted">Lemon</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowLemon').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m6 targeted">3 second counter clockwise night</span>') {
+    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m6 targeted">Salted</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowSalted').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m7 targeted">6 second counter clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m7 targeted">Ruby Swirl</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowSwirl').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m8 targeted">6 second clockwise day</span>') {
+    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m8 targeted">Caramel</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowCaramel').classList.remove('hidden') 
-    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m9 targeted">12 second between 7pm and 7am</span>') {
+    } else if (choices[0].outerHTML == '<img class="bow targeted" src="resources/bow.webp">' && choices[1].outerHTML == '<span class="m9 targeted">Rainbow</span>') {
         removePrev()
         milcery.classList.add('hidden')
         document.querySelector('.bowRainbow').classList.remove('hidden') 
